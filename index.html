@@ -1,38 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculo e juros simples</title>
 </head>
 <body>
+    <script src="script.js"></script>
+
+    <label for="capital">Capital</label>
+    <input type="number" name="capital" id="capital"><br><br>
+    <br>
+    <br>
+
+    <label for="índice de juros">índice</label>
+    <input type="number" name="índice de juros" id="índice de juros"><br><br>
+
+    <label for="tempo">tempo</label>
+    <input type="number" name="tempo" id="tempo"><br><br>
+
+    <button type="button"onclick= "anajuro()">calcular</button>
+    <p id="montante"></p>
+    <P id="juros"></P>
     
 </body>
 </html>
-
-<h1>JUROS SIMPLES</h1>
-
-<h3>explicações</h3>
-
-<h2>j= c.i.t</h2>
-
-<h2>m= c+j</h2>
-
-
-
-
-<h3>João aplicou R$20 000,00 durante 3 meses em uma aplicação a juros simples com uma taxa de 6% ao mês. Qual o valor recebido por João ao final desta aplicação?</h3>
-
-<label for="Juros">juros:</label>
-<input type="number" name="juros" id="juros">
-<button type="button" onclick="calculo()">Calcular</button>
-
-<br>
-<br>
-
-<label for="Capital">capital:</label>
-<input type="number" name="capital" id="capital">
-<button type="button" onclick="calculo()">Calcular</button>
-
-<label for="Taxa">taxa:</label>
-<input type="number" name="">
